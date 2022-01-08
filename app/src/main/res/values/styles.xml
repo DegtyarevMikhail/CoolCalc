@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/purple_200</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="rippleColor">#15BFAF</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="strokeColor">#1343D5</item>
+
+
+    </style>
+
+    <style name="MyCoolStyle" parent="AppTheme"><!--  AppTheme        -->
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/design_default_color_primary</item>
+        <item name="android:layout_marginStart">@dimen/margin</item>
+        <item name="android:layout_marginEnd">@dimen/margin</item>
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_width">@dimen/calc_button_width</item>
+        <item name="android:layout_height">@dimen/calc_button_height</item>
+        <item name="cornerRadius">26dp</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="strokeColor">#650875</item>
+
+    </style>
+
+    <style name="AppThemeLight" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">#4EE9DA</item>
+        <item name="colorPrimaryDark">#2494C6</item>
+        <item name="colorAccent">#650A75</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="strokeColor">#D33D0D</item>
+        <item name="cornerRadius">26dp</item>
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.MaterialComponents">
+        <item name="strokeWidth">3dp</item>
+        <item name="strokeColor">#4809B8</item>
+        <item name="cornerRadius">26dp</item>
+        <item name="android:textColor">#1F054A</item>
+        <item name="android:layout_width">@dimen/calc_button_width</item>
+        <item name="android:layout_height">@dimen/calc_button_height</item>
+
+    </style>
+
+
+
+</resources>

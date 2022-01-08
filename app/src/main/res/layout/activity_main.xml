@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/row00"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/display1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#9E86F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+
+            <EditText
+                android:id="@+id/display2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Result"
+                android:textColor="#9E86F4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_7" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_8" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_9" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_divide"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/divide" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_4" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_5" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_6" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_multiply"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/multiply" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_3" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_2" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_subtract"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/subtract" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/decimal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/decimal" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_equals"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/equals" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_add"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/plus" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/key_0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_0" />
+
+        </LinearLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/calc_button_key_C"
+            android:layout_weight="1"
+            android:text="@string/c" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dark"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/hp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/happy"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/lt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/light"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cool"
+            />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
